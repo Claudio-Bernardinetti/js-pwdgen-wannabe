@@ -9,12 +9,13 @@ console.log(userName);
 const userSecondName = prompt('inserisci il tuo cogniome');
 console.log(userSecondName);
 
-// Chiedil il suo colore preferito
+// Chiedi il suo colore preferito
 
 const userFavoriteColor = prompt('inserisci il tuo colore preferito');
 console.log(userFavoriteColor);
 
-// Clcolo anno di nascita
+// Calcolo anno di nascita
+
 const userAge = prompt ("inserisci la tue eta'")
 const currentYear = 2023;
 const birthYear = currentYear - Number(userAge);
