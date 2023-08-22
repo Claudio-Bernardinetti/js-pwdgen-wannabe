@@ -14,16 +14,14 @@ console.log(userSecondName);
 const userFavoriteColor = prompt('inserisci il tuo colore preferito');
 console.log(userFavoriteColor);
 
-// Calcolo anno di nascita
+// Calcolo chiave
 
-const userAge = prompt ("inserisci la tue eta'")
-const currentYear = 2023;
-const birthYear = currentYear - Number(userAge);
-console.log(birthYear);
+const userKey = 1 + prompt ("inserisci la chiave");
+console.log(userKey);
 
 // Scrivi in pagina e console il risultato
 
 const textElement = document.getElementById ('text');
-textElement.innerHTML = userName + userSecondName + userFavoriteColor + birthYear;
-console.log(userName+userSecondName+ userFavoriteColor+ birthYear);
-console.log(`${userName + userSecondName + userFavoriteColor + birthYear}`);
+textElement.innerHTML = userName + userSecondName + userFavoriteColor + userKey;
+console.log(userName+userSecondName+userFavoriteColor+userKey);
+console.log(`${userName + userSecondName + userFavoriteColor + userKey}`);
