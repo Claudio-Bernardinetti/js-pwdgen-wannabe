@@ -14,7 +14,13 @@ console.log(userSecondName);
 const userFavoriteColor = prompt('inserisci il tuo colore preferito');
 console.log(userFavoriteColor);
 
+// Clcolo anno di nascita
+const userAge = prompt ("inserisci la tue eta'")
+const currentYear = 2023;
+const birthYear = currentYear - Number(userAge);
+console.log(birthYear);
+
 // Scrivi in pagina e console il risultato
 
 const textElement = document.getElementById ('text');
-textElement.innerHTML = userName + userSecondName + userFavoriteColor;
+textElement.innerHTML = userName + userSecondName + userFavoriteColor + birthYear;
