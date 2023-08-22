@@ -25,4 +25,5 @@ console.log(birthYear);
 
 const textElement = document.getElementById ('text');
 textElement.innerHTML = userName + userSecondName + userFavoriteColor + birthYear;
-console.log(userName+userSecondName+userFavoriteColor+birthYear);
+console.log(userName+userSecondName+ userFavoriteColor+ birthYear);
+console.log(`${userName + userSecondName + userFavoriteColor + birthYear}`);
